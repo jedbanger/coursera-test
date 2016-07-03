@@ -1,0 +1,117 @@
+
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    text-align: center;
+    font-size: 1.75em;
+
+}
+
+
+
+
+.container  {
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+.row {
+    width:100%;
+
+}
+.product-box {
+    background:#afafaf;
+    border: 2px solid black;
+    position: relative;
+    margin: 3%;
+
+}
+
+.product-box p  {
+    padding: 20px 10px 10px 10px;
+
+
+}
+
+.product-name {
+    position: absolute;
+    top: 0px ;
+    right: 0px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:1.25em;
+
+}
+
+
+.container .product-name :nth-child(1) {
+    color:pink;
+}
+#chicken.product-name {
+    background-color:#ab7c8d;
+}
+
+#beef.product-name {
+    background-color:#f44336;
+    color:white;
+}
+
+
+#sushi.product-name {
+    background-color: #ff9800;
+}
+
+@media (min-width:992px) {
+    .col-md-4{
+        width:33.3%;
+        float:left;
+
+
+    }
+
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+    .col-sm-6{
+        width:50%;
+        float:left;
+
+    }
+    .col-sm-12{
+        width:100%;
+        float:left;
+
+    }
+
+
+
+
+
+}
+
+@media (max-width:767px) {
+    .col-xs-12  {
+        width:100%;
+
+
+    }
+
+}
