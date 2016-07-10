@@ -1,0 +1,38 @@
+
+.navbar-default {
+background-color: #a9a9a9;}
+.navbar-default .navbar-brand {
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 5px 0px 10px 5px;
+
+
+}
+
+.navbar-default .navbar-toggle  {
+border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #080808;
+}
+
+
+#text-general {
+    background-color: grey;}
+
+
+
+@media (max-width:767px)  {
+    .navbar-collapse {
+        background-color: #cab597;
+
+    }
+
+}
+
+h1 {
+    margin-bottom: 20px;
+
+}
